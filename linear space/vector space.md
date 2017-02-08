@@ -17,8 +17,8 @@ $$ Fⁿ= \{(x_1, \cdots , x_n ): x_j \in F, j=1, \cdots ,n\} $$
 $$ 0 = (0, \cdots ,0) $$
 
 * 向量空间上的运算
-  * **加法（addition）**：一个映射， $$ \forall u,v \in V, \exists u+v \in V $$ 同一向量空间中，两个**组**的和 = 对应坐标相加所得到的**组**
-  * **数乘（标量乘法，scalar multiplication）**：一个映射， $$ \forall a \in F, v \in V, \exists av \in V $$ 
+  * **加法（addition）**：一个映射， $$ \forall \mathbf{u},\mathbf{v} \in V, \exists \mathbf{(u+v)} \in V $$ 同一向量空间中，两个**组**的和 = 对应坐标相加所得到的**组**
+  * **数乘（标量乘法，scalar multiplication）**：一个映射， $$ \forall a \in F,\mathbf{v} \in V, \exists a\mathbf{v} \in V $$ 
 * 运算的性质
   * 交换性（commutativity）
   * 结合性（associativity）
@@ -32,8 +32,8 @@ $$ 0 = (0, \cdots ,0) $$
 
 ## 向量空间的性质
 
-1. 加法单位元唯一，设有两个加法单位元 0、0'， $$ 0' = 0'+0 = 0$$
-2. 每个元素的加法逆唯一，设 v 有两个加法逆 w、w'， $$ w = w+0 = w+(v+w') = 0+w' = w'$$
+1. 加法单位元唯一，设有两个加法单位元 **0、0'**， $$\mathbf{0' = 0'+0 = 0}$$
+2. 每个元素的加法逆唯一，设 v 有两个加法逆 **w、w'**， $$ \mathbf{w = w+0 = w+(v+w') = 0+w' = w'}$$
 3. $$ \forall \mathbf{v} \in V,\ 0\mathbf{v} = \mathbf{0} $$
 4. $$ \forall a \in F,\ a\mathbf{0} = \mathbf{0} $$
 
