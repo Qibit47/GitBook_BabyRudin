@@ -13,8 +13,8 @@
 ### 向量空间 V
 
 $$ F^n $$ 定义为一个数域上 n 元组的集合：  
-$$ Fⁿ= \{(x_1, \cdots , x_n ): x_j \in F, j=1, \cdots ,n\} $$  
-$$ 0 = (0, \cdots ,0) $$
+$$ Fⁿ= \{(x_1, \cdots , x_n): x_j \in F, j=1, \cdots ,n\} $$  
+$$ \mathbf{0} = (0, \cdots ,0) $$
 
 * 向量空间上的运算
   * **加法（addition）**：一个映射， $$ \forall \mathbf{u},\mathbf{v} \in V, \exists \mathbf{(u+v)} \in V $$ 同一向量空间中，两个**组**的和 = 对应坐标相加所得到的**组**
