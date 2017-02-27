@@ -12,5 +12,13 @@
 		- ⇒ 若 f(x)≠0, g(x)≠0，则 f(x)•g(x)≠0
 		- 证明：f≠0 ⇒ f 的首项 ≠0, g≠0 ⇒ g 的首项 ≠0
 		则 fg 的首项 = f 的首项 × g 的首项 ≠ 0
-	- *定义 2（字典排序法）* 将未定元按自然足标（加权）排序。 
+	- *定义 2* 字典排序法： 将未定元按自然足标（加权）排序。 
 	- *引理 3* 设 $$f,g \in K[x_1 \cdots x_n]$$ ，则在字典排序下， fg的首项 = f的首项 × g的首项
+	- *推论 5* 乘法消去律：设 $$f,g,h ≠ 0 \in K[x_1, \cdots \x_n]$$ 满足 $$fh = gh$$，则$$f = g$$
+- *定义 6* 若 $$f(x_1 \cdots x_n)$$ 的所有单项式都是 m 次的，则称 f 为 **m次齐次多项式** 或 **m次型**
+	- *引理 7*
+		- 设 f≠0 是 m 次齐次多项式，g≠0 是 k 次齐次多项式，则 fg≠0 为 m+k 次齐次多项式
+		- 齐次分解：设 deg f = d ≥ 0，则 $$f = f_d + f_{d-1} + \cdots + f_0, f_d ≠ 0, f_i is either 0 or a degree i polynomial$$
+	- *命题 8* 设 $$ f,g \in K[x_1, \cdots ,x_n]$$ 则
+		- $$deg(f \cdot g) = deg f + deg g$$
+		- $$deg(f+g) ≤ max {deg f, deg g}$$
