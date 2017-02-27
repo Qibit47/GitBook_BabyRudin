@@ -1,0 +1,14 @@
+## 多元多项式
+- *定义 1* 设 K 为数域， $$x_1, x_2, \cdots , x_n$$ 为未定元， $$a \in K, k_1, k_2, \cdots k_n \in ℤ ≥ 0$$ 为非负整数，称 $$ax_1^{k_1}x_2^{k_2} \cdots x_n^{k_n}$$ 为 **单项式**
+	- 若 a≠0，定义 **次数** = $$k_1 + k_2 + \cdots +k_n$$
+	- 若 a=0，定义 **次数** = $$-\infty$$
+- 同类项加法：有限个单项式的形式和称为 **多项式**
+	- $$f(x_1, \cdots x_n) = \sum_{(i_1, \cdots i_n)\in ℤ^n_{≥0}}a_{i_1\cdots i_n}x^{i_1}_1 \cdots x^{i_n}_n$$
+	- *定义* 加法：$$f + g = \sum_{(i_1, \cdots ,i_n)\in ℤ^n_≥0}(a_{i_1\cdots i_n} + b_{i_1\cdots i_n})x^{i_1}_1 \cdots x^{i_n}_n}$$
+	- $$k \in K$$ 数乘：$$f + g = \sum_{(i_1, \cdots ,i_n)\in ℤ^n_≥0}(ka_{i_1\cdots i_n})x^{i_1}_1 \cdots x^{i_n}_n}$$
+	- 乘积：利用分配率化为单项式乘积，再合并同类项进行化简
+- $$K[x_1, \cdots ,x_n]$$ 为 K 上的代数，称为 K 上的 n 元 **多项式代数（环）**
+	- 整性： $$f(x) = a_m x^m + a_{m-1} x^{m-1} + \cdots + a_0, a_m ≠ 0 \\ deg(f(x) \cdot g(x)) = degf(x) + degg(x)$$
+		- ⇒ 若 f(x)≠0, g(x)≠0，则 f(x)•g(x)≠0
+	- *定义 2（字典排序法）* 将未定元按自然足标（加权）排序。 
+	- *引理 3* 设 $$f,g \in K[x_1 \cdots x_n]$$ ，则在字典排序下， fg的首项 = f的首项 ✖️ g的首项
