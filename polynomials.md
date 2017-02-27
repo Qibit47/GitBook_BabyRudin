@@ -23,7 +23,7 @@
 	- *命题* 设 $$ f,g \in K[x_1, \cdots ,x_n]$$ 则
 		- $$deg(f \cdot g) = deg f + deg g$$
 		- $$deg(f+g) ≤ max {deg f, deg g}$$
-- **多元多项式** $$f=g$$ 的充分必要条件是 **多元多项式函数** $$f=g
+- **多元多项式** $$f=g$$ 的充分必要条件是 **多元多项式函数** $$f=g$$
 	- 必要性：显然
 	- 充分性：
 		- *引理* 设 $$f(x_1, x_2, \cdots , x_n)$$ 是 K 上的 n 元非零多项式，则 $$\exists a_1, a_2, \cdots a_n \in K, s.t. f(a_1, a_2, \cdots a_n) ≠ 0$$
