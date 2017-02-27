@@ -8,7 +8,9 @@
 	- $$k \in K$$ 数乘：$$f + g = \sum_{(i_1, \cdots ,i_n)\in ℤ^n_≥0}(ka_{i_1\cdots i_n})x^{i_1}_1 \cdots x^{i_n}_n}$$
 	- 乘积：利用分配率化为单项式乘积，再合并同类项进行化简
 - $$K[x_1, \cdots ,x_n]$$ 为 K 上的代数，称为 K 上的 n 元 **多项式代数（环）**
-	- 整性： $$f(x) = a_m x^m + a_{m-1} x^{m-1} + \cdots + a_0, a_m ≠ 0 \\ deg(f(x) \cdot g(x)) = degf(x) + degg(x)$$
+	- *命题 4* 整性： $$f(x) = a_m x^m + a_{m-1} x^{m-1} + \cdots + a_0, a_m ≠ 0 \\ deg(f(x) \cdot g(x)) = degf(x) + degg(x)$$
 		- ⇒ 若 f(x)≠0, g(x)≠0，则 f(x)•g(x)≠0
+		- 证明：f≠0 ⇒ f 的首项 ≠0, g≠0 ⇒ g 的首项 ≠0
+		则 fg 的首项 = f 的首项 × g 的首项 ≠ 0
 	- *定义 2（字典排序法）* 将未定元按自然足标（加权）排序。 
-	- *引理 3* 设 $$f,g \in K[x_1 \cdots x_n]$$ ，则在字典排序下， fg的首项 = f的首项 ✖️ g的首项
+	- *引理 3* 设 $$f,g \in K[x_1 \cdots x_n]$$ ，则在字典排序下， fg的首项 = f的首项 × g的首项
