@@ -12,7 +12,7 @@
 逆 *(inverse)* 的性质：
     - 若 *a* 有 left inverse *l* **和** right inverse *r*, 则 *a* invertible, $$l = r$$, 为 *a* 的 inverse
     - 若 *a* invertible, 则 *a* 的 inverse 唯一
-    - $$(ab)^{-1} = a^{-1}b^{-1}$$
+    - $$(ab)^{-1} = b^{-1}a^{-1}$$
     - *a* 可能有 left inverse **或** right inverse, 同时却 not invertible
     
         e.g. $$N = {1, 2, 3, \cdots}, s(n) = n+1$$, $$l(n) = n-1, if n > 1; l(1) = 1$$
