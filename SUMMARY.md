@@ -5,4 +5,5 @@
 * [Trace 迹](trace.md)
 * [Vector Space 向量空间](linear space/vector space.md)
 * [Polynomials 多项式](polynomials.md)
+* [Group 群](group-qun.md)
 
