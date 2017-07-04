@@ -14,7 +14,8 @@
     - 若 *a* invertible, 则 *a* 的 inverse 唯一
     - $$(ab)^{-1} = a^{-1}b^{-1}$$
     - *a* 可能有 left inverse **或** right inverse, 同时却 not invertible
-    e.g. $$N = {1, 2, 3, \cdots}, s(n) = n+1$$, $$l(n) = n-1, if n > 1; l(1) = 1$$
+    
+        e.g. $$N = {1, 2, 3, \cdots}, s(n) = n+1$$, $$l(n) = n-1, if n > 1; l(1) = 1$$
 
 ## Groups and Subgroups
 群 *(group)* 的定义：
@@ -26,9 +27,10 @@
 阿贝尔群 *(abelian group)* 指合成法则可交换的群 
 群的阶 *(order)* 指群中元素的个数，阶有限称为 *finite group*, 阶无限称为 *infinite group*
 常见的 infinite abelian group 有：
-    - $$\mathbb{Z}^+$$
-    - $$\mathbb{R}^+$$
-    - $$\mathbb{R}^{\times}$$
-    - $$\mathbb{C}^+, \mathbb{C}^{\times}$$
+    - $$\mathbb{Z}^+$$ 整数加法群
+    - $$\mathbb{R}^+$$ 实数加法群
+    - $$\mathbb{R}^{\times}$$ 实数乘法群（不包含0，因为它没有逆）
+    - $$\mathbb{C}^+, \mathbb{C}^{\times}$$ 复数域上的群
+    
 **Cancellation Law**: 若 $$ab = ac$$ 或 $$ba = ca$$, 则 $$b = c$$
 
