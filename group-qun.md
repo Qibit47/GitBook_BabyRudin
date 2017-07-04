@@ -10,11 +10,11 @@
 
 乘积 \*\(product\)\* 的定义：
 
-1. $$\[a\_1\] = a\_1$$
+1. $$[a_1] = a_1$$
 
-2. $$\[a\_1 a\_2\]$$ 由合成法则给出
+2. $$[a_1 a_2]$$ 由合成法则给出
 
-3. For any integer \*i\* in range $$1 ≤ i < n$$, $$\[a\_1 \cdots a\_n\] = \[a\_1 \cdots a\_i\] \[a_{i+1} \cdots a\_n]$$
+3. For any integer \*i\* in range $$1 ≤ i < n$$, $$[a_1 \cdots a_n] = [a_1 \cdots a_i] [a_{i+1} \cdots a_n]$$
 
 恒等元 \*\(identity\)\* 至多有一个；
 
@@ -24,25 +24,23 @@
 
 * 若 \*a\* invertible, 则 \*a\* 的 inverse 唯一
 
-* $$\(ab\)^{-1} = a^{-1}b^{-1}$$
+* $$(ab)^{-1} = a^{-1}b^{-1}$$
 
 * \*a\* 可能有 left inverse \*\*或\*\* right inverse, 同时却 not invertible
 
-  e.g. $$N = {1, 2, 3, \cdots}, s\(n\) = n+1$$, $$l\(n\) = n-1, if n &gt; 1; l\(1\) = 1$$
+  e.g. $$N = {1, 2, 3, \cdots}, s(n) = n+1$$, $$l(n) = n-1, if\ n < 1; l(1) = 1$$
 
 \#\# Groups and Subgroups
 
 群 \*\(group\)\* 的定义：
 
-```
-称集合 \*G\* 是群，当且仅当
+称集合 \\*G\\* 是群，当且仅当
 
-- $$\(ab\)c = a\(bc\), \forall a, b, c \in G$$
+*  $$\\(ab\\)c = a\\(bc\\), \forall a, b, c \in G$$
 
-- \*G\* 包含恒等元 \*1\*
+* \\*G\\* 包含恒等元 \\*1\\*
 
-- $$\forall a \in G, \exists b \in G\ s.t. ab = 1 \and ba = 1$$
-```
+*  $$\forall a \in G, \exists b \in G\ s.t. ab = 1 \and ba = 1$$
 
 阿贝尔群 \*\(abelian group\)\* 指合成法则可交换的群
 
