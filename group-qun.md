@@ -36,7 +36,7 @@
 
 称集合 \_G\_ 是群，当且仅当
 
-* $$\\(ab\\)c = a\\(bc\\), \forall a, b, c \in G$$
+* $$(ab)c = a(bc), \forall a, b, c \in G$$
 
 * \*_G\*_ 包含恒等元 \*_1\*_
 
