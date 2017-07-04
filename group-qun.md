@@ -34,13 +34,13 @@
 
 群 \*\(group\)\* 的定义：
 
-称集合 \\*G\\* 是群，当且仅当
+称集合 \_G\_ 是群，当且仅当
 
-*  $$\\(ab\\)c = a\\(bc\\), \forall a, b, c \in G$$
+* $$\\(ab\\)c = a\\(bc\\), \forall a, b, c \in G$$
 
-* \\*G\\* 包含恒等元 \\*1\\*
+* \*_G\*_ 包含恒等元 \*_1\*_
 
-*  $$\forall a \in G, \exists b \in G\ s.t. ab = 1 \and ba = 1$$
+* $$\forall a \in G, \exists b \in G\ s.t. ab = 1 \and ba = 1$$
 
 阿贝尔群 \*\(abelian group\)\* 指合成法则可交换的群
 
