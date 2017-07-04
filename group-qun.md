@@ -8,7 +8,9 @@
     1. $$[a_1] = a_1$$
     2. $$[a_1 a_2]$$ 由合成法则给出
     3. For any integer *i* in range $$1 ≤ i < n$$, $$[a_1 \cdots a_n] = [a_1 \cdots a_i] [a_{i+1} \cdots a_n]$$ 
+    
 恒等元 *(identity)* 至多有一个；
+
 逆 *(inverse)* 的性质：
     - 若 *a* 有 left inverse *l* **和** right inverse *r*, 则 *a* invertible, $$l = r$$, 为 *a* 的 inverse
     - 若 *a* invertible, 则 *a* 的 inverse 唯一
@@ -34,3 +36,5 @@
     
 **Cancellation Law**: 若 $$ab = ac$$ 或 $$ba = ca$$, 则 $$b = c$$
 
+$$n \times n$$ 一般线性群 *(general linear group)* 是由所有 $$n \times n$$ 可逆矩阵构成的群，记为 $$GL_n$$
+the set of indices $$\{1,2, \cdots ,n\}$$ 的置换群称为对称群 *(symmetric group)*, 记为 $$S_n$$, 它的 order 为 $$n!$$
