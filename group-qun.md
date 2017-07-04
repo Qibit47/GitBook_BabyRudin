@@ -26,9 +26,9 @@
 阿贝尔群 *(abelian group)* 指合成法则可交换的群 
 群的阶 *(order)* 指群中元素的个数，阶有限称为 *finite group*, 阶无限称为 *infinite group*
 常见的 infinite abelian group 有：
-    - $$Z^+$$
-    - $$R^+$$
-    - $$R^X$$
-    - $$C^+, C^X$$
+    - $$\mathbb{Z}^+$$
+    - $$\mathbb{R}^+$$
+    - $$\mathbb{R}^{\times}$$
+    - $$\mathbb{C}^+, \mathbb{C}^{\times}$$
 **Cancellation Law**: 若 $$ab = ac$$ 或 $$ba = ca$$, 则 $$b = c$$
 
