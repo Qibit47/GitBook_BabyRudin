@@ -38,3 +38,4 @@
 
 $$n \times n$$ 一般线性群 *(general linear group)* 是由所有 $$n \times n$$ 可逆矩阵构成的群，记为 $$GL_n$$
 the set of indices $$\{1,2, \cdots ,n\}$$ 的置换群称为对称群 *(symmetric group)*, 记为 $$S_n$$, 它的 order 为 $$n!$$
+    e.g. $$S_2 = \{ 1, \tau \}$$, $$S_3 = \{1, x, x^2; y, xy, x^2y\}$$
